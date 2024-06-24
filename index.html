@@ -8,7 +8,21 @@
 </head>
 
 <body>
-   <script src="odinCalculator.js"></script>
+    <div>
+        <h4>X</h4>
+        <input type="number" id="inputOne" min="-100" max="100" value="1">
+    </div>
+    <div>
+        <h4>Y</h4>
+        <input type="number" id="inputTwo" min="-100" max="100" value="1">
+    </div>
+    <button onclick="add()">+</button>
+    <button onclick="subtract()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button>
+    <button>^</button>
+    <div id="output"></div>
+    <script src="odinCalculator.js"></script>
 </body>
   
 </html>

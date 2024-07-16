@@ -8,20 +8,35 @@
 </head>
 
 <body>
-    <div>
-        <h4>X</h4>
-        <input type="number" id="inputOne" min="-100" max="100" value="1">
-    </div>
-    <div>
-        <h4>Y</h4>
-        <input type="number" id="inputTwo" min="-100" max="100" value="1">
-    </div>
-    <button onclick="add()">+</button>
-    <button onclick="subtract()">-</button>
-    <button onclick="multiply()">*</button>
-    <button onclick="divide()">/</button>
-    <button>^</button>
     <div id="output"></div>
+    <div>
+        <button onclick="resetEquation()">clear</button>
+        <button>+/-</button>
+        <button onclick="typeOper('/')">/</button>
+    </div>
+    <div>
+        <button onclick="typeNum('7')">7</button>
+        <button onclick="typeNum('8')">8</button>
+        <button onclick="typeNum('9')">9</button>
+        <button onclick="typeOper('*')">*</button>
+    </div>
+    <div>
+        <button onclick="typeNum('4')">4</button>
+        <button onclick="typeNum('5')">5</button>
+        <button onclick="typeNum('6')">6</button>
+        <button onclick="typeOper('-')">-</button>
+    </div>
+    <div>
+        <button onclick="typeNum('1')">1</button>
+        <button onclick="typeNum('2')">2</button>
+        <button onclick="typeNum('3')">3</button>
+        <button onclick="typeOper('+')">+</button>
+    </div>
+    <div>
+        <button onclick="typeNum('0')">0</button>
+        <button onclick="typeNum('.')">.</button>
+        <button onclick="equals()"> = </button>
+    </div>
     <script src="odinCalculator.js"></script>
 </body>
   
